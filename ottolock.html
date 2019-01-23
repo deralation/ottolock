@@ -22,6 +22,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
     <link rel="manifest" href="static/favicon/manifest.json">
    	<meta name="theme-color" content="#ffffff">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -34,6 +35,13 @@
                 <span class="navigation-bar"></span>
                 <span class="navigation-bar"></span>
             </a>
+          </div>
+          <div class="header-mobile-menu row" id="header-mobile-menu-navigation">
+              <ul class="menu-mobile col-xs-offset-1 col-xs-9 col-sm-4 pull-left">
+                  <li><a href="ottolock.html">OttoLock</a></li>
+                  <li><a href="">OttoLed</a></li>
+                  <li><a href="">İletişim</a></li>
+              </ul>
           </div>
           <div class="col-xs-6 col-sm-2 col-md-3 col-lg-3">
               <div class="header-logo hidden-xs">
@@ -188,37 +196,34 @@
       </div>
       <div class="row">
         <div class="services-section">
-            <div class="container">
-              <div class="col-xs-12 col-sm-6 col-md-3 flex-services">
-                <div>
-                  <img class="img img-responsive" src="static/default/ottolock-security-02.svg" alt="Services Icon" style="margin:auto;">
-                  <p style="margin-top: 30px;">Dilediğin Yerden Kilitle</p>
-                </div>
+            <div class="col-xs-12 col-md-3 flex-services">
+              <div>
+                <img class="img img-responsive" src="static/default/ottolock-security-02.svg" alt="Services Icon" style="margin:auto;">
+                <p style="margin-top: 30px;">Dilediğin Yerden Kilitle</p>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 flex-services">
-                <div>
-                  <img class="img img-responsive" src="static/default/ottolock-security-03.svg" alt="Services Icon" style="margin:auto;">
-                  <p style="margin-top: 30px;">Dilediğine Erişim Ver</p>
-                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 flex-services">
+              <div>
+                <img class="img img-responsive" src="static/default/ottolock-security-03.svg" alt="Services Icon" style="margin:auto;">
+                <p style="margin-top: 30px;">Dilediğine Erişim Ver</p>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 flex-services">
-                <div>
-                  <img class="img img-responsive" src="static/default/ottolock-security-04.svg" alt="Services Icon" style="margin:auto;">
-                  <p style="margin-top: 30px;">Enerji Dostu</p>
-                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 flex-services">
+              <div>
+                <img class="img img-responsive" src="static/default/ottolock-security-04.svg" alt="Services Icon" style="margin:auto;">
+                <p style="margin-top: 40px;">Enerji Dostu</p>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 flex-services">
-                <div>
-                  <img class="img img-responsive" src="static/default/ottolock-security-05.svg" alt="Services Icon" style="margin:auto;">
-                  <p style="margin-top: 30px;">Kontrol Sende</p>
-                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 flex-services">
+              <div>
+                <img class="img img-responsive" src="static/default/ottolock-security-05.svg" alt="Services Icon" style="margin:auto;">
+                <p style="margin-top: 20px;">Kontrol Sende</p>
               </div>
             </div>
           </div>
       </div>
     </div>
-
-    <div class="row hidden-xs hidden-sm hidden-md" style="background-color:#efefef">
+    <div class="row" style="background-color:#efefef">
       <div class="col-xs-12 container-ottosmart-position">
         <div class="ottolock-icon" style="text-align: center;">
           <img src="static/default/ottolock-security-06.svg">
@@ -231,46 +236,46 @@
       </div>
       <div class="row" style="padding-bottom:50px;">
           <div class="ottolock-spec-info">
-              <div class="col-lg-3 col-lg-offset-3 spec-title spec">
+              <div class="col-xs-2 col-sm-2 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3 spec-title spec">
                 <span>Pil</span>  
               </div>
-              <div class="col-lg-3 spec-text spec">
+              <div class="col-xs-10 col-sm-5 col-md-3 col-lg-3 spec-text spec">
                 <span>10400 Mah Li-Ion  (10-12 ay pil ömrü)</span>  
               </div>
-              <div class="col-lg-3 col-lg-offset-3 spec-title spec">
-                <span>Uyumlu Mobil Telefon</span>  
+              <div class="col-xs-4 col-sm-2 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3 spec-title spec">
+                <span>Uyumlu Telefon</span>  
               </div>
-              <div class="col-lg-3 spec-text spec">
+              <div class="col-xs-8 col-sm-5 col-md-3 col-lg-3 spec-text spec">
                 <span>iOS 9.0 ve üzeri, Andoroid 5.0 ve üzeri</span>  
               </div>
-              <div class="col-lg-3 col-lg-offset-3 spec-title spec">
+              <div class="col-xs-2 col-sm-2 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3 spec-title spec">
                 <span>Güvenlik</span>  
               </div>
-              <div class="col-lg-3 spec-text spec">
+              <div class="col-xs-10 col-sm-5 col-md-3 col-lg-3 spec-text spec">
                 <span>Askeri-düzey çift yönlü şifreleme</span>  
               </div>
-              <div class="col-lg-3 col-lg-offset-3 spec-title spec">
+              <div class="col-xs-2 col-sm-2 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3 spec-title spec">
                 <span>Bağlantı</span>  
               </div>
-              <div class="col-lg-3 spec-text spec">
+              <div class="col-xs-10 col-sm-5 col-md-3 col-lg-3 spec-text spec">
                 <span>Bluetooth 4.2 +</span>  
               </div>
-              <div class="col-lg-3 col-lg-offset-3 spec-title spec">
-                <span>Uyumlu Kapı Kilitleri</span>  
+              <div class="col-xs-4 col-sm-2 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3 spec-title spec">
+                <span>Uyumlu Kilitler</span>  
               </div>
-              <div class="col-lg-3 spec-text spec">
+              <div class="col-xs-8 col-sm-5 col-md-3 col-lg-3 spec-text spec">
                 <span>Mandallı kapı kilitlerine uyumludur</span>  
               </div>
-              <div class="col-lg-3 col-lg-offset-3 spec-title spec">
+              <div class="col-xs-6 col-sm-2 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3 spec-title spec">
                 <span>Ağırlık</span>  
               </div>
-              <div class="col-lg-3 spec-text spec">
+              <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 spec-text spec">
                 <span>524 gr.</span>  
               </div>
-              <div class="col-lg-3 col-lg-offset-3 spec-title spec">
+              <div class="col-xs-3 col-sm-2 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3 spec-title spec">
                 <span>Boyut</span>  
               </div>
-              <div class="col-lg-3 spec-text spec">
+              <div class="col-xs-9 col-sm-5 col-md-3 col-lg-3 spec-text spec">
                 <span>Boy 20,4 cm - En 7,8 cm - Derinlik 6,6 cm</span>  
               </div>
           </div>
@@ -336,5 +341,23 @@
       </div>
     </div>    
   </footer>
+  <script type="text/javascript">
+    $(".header-mobile-navigation").on("click",function(e) {
+      e.preventDefault();
+      if($("#header-mobile-menu-navigation").is(":visible")) {
+        $("#header-mobile-menu-navigation").hide();
+        $(".header-mobile-navigation").removeClass("header-mobile-navigation-active");
+        
+      } else {
+        $("#header-mobile-menu-navigation").show();
+        $(".header-mobile-navigation").addClass("header-mobile-navigation-active");
+        if($("#header-mobile-menu-user").is(":visible")) {
+          $("#header-mobile-menu-user").hide();
+          $(".header-mobile-user").removeClass("header-mobile-user-active");
+        } 
+      }
+      
+    });
+  </script>
 </body>
 </html>

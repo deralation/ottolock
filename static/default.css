@@ -140,7 +140,44 @@ a {
 	padding:0px 15px;
 	display: block;
 }
-
+.header-mobile-menu {
+	display: none;
+}
+/* Header: Extras */
+.header-mobile-menu {
+	display: none;
+	position: fixed;
+	top:60px;
+	width:100%;
+	left:0px;
+}
+.header-mobile-menu .menu-mobile {
+	list-style-type: none;
+	background-color: #fff;
+	border-bottom:2px solid #0519ff;
+	padding:15px;
+	border-left:1px solid #EEE;
+	border-right:1px solid #EEE;
+	-webkit-box-shadow: 2px 2px 4px 2px rgba(189,189,189,0.4);
+	-moz-box-shadow: 2px 2px 4px 2px rgba(189,189,189,0.4);
+	box-shadow: 2px 2px 4px 2px rgba(189,189,189,0.4);
+}
+.header-mobile-menu .menu-mobile li {
+	border-bottom:1px solid #EEEEEE;
+	padding:0px 15px;
+}
+.header-mobile-menu .menu-mobile li a {
+	display: block;
+	line-height: 48px;
+	color:#0519ff;
+	font-size:16px;
+}
+.header-mobile-menu .menu-mobile li a:hover {
+	text-decoration: none;
+}
+.header-mobile-menu .menu-mobile li:last-child {
+	border-bottom: 0px;
+}
 /* Header Mobile */
 .header-mobile {
 	padding-top:10px;
@@ -576,10 +613,6 @@ footer {
   padding: 20px 50px;
 }
 .services-section .flex-services {
-  display: flex;
-  display: -webkit-flex;
-  flex-direction:row;
-  
   /* Make the content align at baseline */
   align-self: baseline;
   
@@ -589,6 +622,5 @@ footer {
 .services-section .flex-services div {
   text-align: center;
   padding: 5px;
-  flex: 1 1;
   margin: 15px;
 }
