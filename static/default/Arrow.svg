@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="18px" viewBox="0 0 9 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow-Right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Home" transform="translate(-289.000000, -999.000000)" fill="#0519FF">
+            <g id="OttoLock" transform="translate(0.000000, 700.000000)">
+                <g id="Group-3" transform="translate(168.000000, 297.000000)">
+                    <g id="arrow-right-2" transform="translate(121.000000, 1.000000)">
+                        <path d="M0.193863145,1.94154427 C-0.0256114178,1.72167915 -0.0252947866,1.36552399 0.19457032,1.14604945 C0.414435426,0.926574902 0.77059057,0.926891516 0.990065133,1.14675663 L8.42218723,8.59210442 C9.19005795,9.36120606 9.18947076,10.607042 8.42091041,11.3753845 L0.978575733,18.8169194 C0.758894058,19.0365775 0.402738745,19.0365584 0.183080639,18.8168766 C-0.0365774679,18.597195 -0.0365583429,18.2410396 0.183123389,18.0213815 L7.62549305,10.5798116 C7.95489109,10.2505069 7.95514275,9.71657725 7.62602023,9.38692716 L0.193863145,1.94154427 Z" id="Arrow-Right"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
