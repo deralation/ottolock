@@ -100,8 +100,14 @@
     </div>
     <div class="row" style="background-color: #ffffff;">
       <div class="col-xs-12">
-          <div class="ottolock-homepage-app" style="text-align: center; padding-top: 30px;" >
+          <div class="ottolock-homepage-app hidden-xs hidden-sm hidden-md" style="text-align: center; padding-top: 30px;" >
             <img src="static/default/OttoLock_Promo_Web_01.png" style="width: 40%;">
+          </div>
+          <div class="ottolock-homepage-app hidden-xs hidden-lg hidden-md" style="text-align: center; padding-top: 30px;" >
+            <img src="static/default/OttoLock_Promo_Tablet_01.png">
+          </div>
+          <div class="ottolock-homepage-app hidden-sm hidden-lg hidden-md" style="text-align: center; padding-top: 30px;" >
+            <img src="static/default/OttoLock_Promo_Mobile_01.png">
           </div>
       </div>
     </div>
@@ -137,19 +143,24 @@
         </div>
       </div>
       <div class="col-xs-12 hidden-sm hidden-lg hidden-md">
-        <div class="ottolock-iphone-first-image" style="position: absolute; top:-140px; left:130px;">
+        <div class="ottolock-iphone-first-image" style="position: absolute; top:-40px; left:130px;">
           <img src="static/default/i-phone-x@2x.png" >
         </div>
       </div>
-      <div class="col-xs-12 hidden-lg hidden-xs">
+      <div class="col-xs-12 hidden-lg hidden-xs hidden-sm">
         <div class="ottolock-iphone-first-image" style="position: absolute; top:-90px; left:430px;">
           <img src="static/default/i-phone-x-haber.png" style="width: 100%;">
         </div>
       </div>
-      <div class="col-xs-12 col-lg-11 col-lg-offset-1">
-          <p class="container-text-title" style="float: left;">Haberdar Ol</p>
+      <div class="col-xs-12 hidden-lg hidden-xs">
+        <div class="ottolock-iphone-first-image" style="position: absolute; top:-90px; left:380px;">
+          <img src="static/default/OttoLock_Tablet-Image_iPhone_01.png" style="width: 100%;">
+        </div>
       </div>
-      <div class="col-xs-12 col-sm-5 col-md-4 col-lg-5 col-lg-offset-1" class="homepage-start-text">
+      <div class="col-xs-12 col-sm-9 col-sm-offset-1 col-lg-11 col-lg-offset-1" id="ottolock-notification-title">
+          <p class="container-text-title">Haberdar Ol</p>
+      </div>
+      <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-lg-5 col-lg-offset-1" class="homepage-start-text" id="ottolock-notification-text">
           <p class="container-text">Canlı durum güncellemeleri ile eve girip çıkanları real-time izleyebilirsin.</p>
       </div>
     </div>
@@ -163,20 +174,20 @@
         </div>
       </div>
       <div class="col-xs-12 hidden-lg hidden-xs">
-        <div class="ottolock-iphone-second" style="position: absolute; top:-220px; left:430px; box-shadow: 0 4px 2px -2px gray;
+        <div class="ottolock-iphone-second" style="position: absolute; top:-90px; left:380px;
 ">
-          <img src="static/default/i-phone-x-md.png" style="width: 100%;">
+          <img src="static/default/OttoLock_Tablet-Image_iPhone_02.png" style="width: 100%;">
         </div>
       </div>
       <div class="col-xs-12 hidden-sm hidden-lg hidden-md">
-        <div class="ottolock-iphone-second" style="position: absolute; top:-140px; left:130px;">
+        <div class="ottolock-iphone-second" style="position: absolute; top:-40px; left:130px;">
           <img src="static/default/i-phone-x@2x-erisim.png" >
         </div>
       </div>
-      <div class="col-xs-12 col-lg-11 col-lg-offset-1">
-          <p class="container-text-title" style="float: left;">Dilediğine Erişim Ver</p>
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1 col-lg-11 col-lg-offset-1" id="ottolock-access-title">
+          <p class="container-text-title">Dilediğine Erişim Ver</p>
       </div>
-      <div class="col-xs-12 col-sm-5 col-lg-5 col-lg-offset-1" class="homepage-start-text">
+      <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-lg-5 col-lg-offset-1" class="homepage-start-text" id="ottolock-access-text">
           <p class="container-text">Geleneksel metalik anahtarlar artık geçmişe ait.</p>
       </div>
     </div>
@@ -195,35 +206,34 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="services-section">
-            <div class="col-xs-12 col-md-3 flex-services">
-              <div>
-                <img class="img img-responsive" src="static/default/ottolock-security-02.svg" alt="Services Icon" style="margin:auto;">
-                <p style="margin-top: 30px;">Dilediğin Yerden Kilitle</p>
-              </div>
+      <div class="services-section">
+          <div class="col-xs-12 col-sm-6 col-md-3 flex-services">
+            <div>
+              <img class="img img-responsive" src="static/default/ottolock-security-02.svg" alt="Services Icon" style="margin:auto;">
+              <p style="margin-top: 30px;">Dilediğin Yerden Kilitle</p>
             </div>
-            <div class="col-xs-12 col-md-3 flex-services">
-              <div>
-                <img class="img img-responsive" src="static/default/ottolock-security-03.svg" alt="Services Icon" style="margin:auto;">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 flex-services">
+            <div>
+              <img class="img img-responsive" src="static/default/ottolock-security-03.svg" alt="Services Icon" style="margin:auto;">
                 <p style="margin-top: 30px;">Dilediğine Erişim Ver</p>
-              </div>
             </div>
-            <div class="col-xs-12 col-md-3 flex-services">
-              <div>
-                <img class="img img-responsive" src="static/default/ottolock-security-04.svg" alt="Services Icon" style="margin:auto;">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 flex-services">
+            <div>
+              <img class="img img-responsive" src="static/default/ottolock-security-04.svg" alt="Services Icon" style="margin:auto;">
                 <p style="margin-top: 40px;">Enerji Dostu</p>
-              </div>
             </div>
-            <div class="col-xs-12 col-md-3 flex-services">
-              <div>
-                <img class="img img-responsive" src="static/default/ottolock-security-05.svg" alt="Services Icon" style="margin:auto;">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 flex-services">
+            <div>
+              <img class="img img-responsive" src="static/default/ottolock-security-05.svg" alt="Services Icon" style="margin:auto;">
                 <p style="margin-top: 20px;">Kontrol Sende</p>
-              </div>
             </div>
           </div>
       </div>
     </div>
+
     <div class="row" style="background-color:#efefef">
       <div class="col-xs-12 container-ottosmart-position">
         <div class="ottolock-icon" style="text-align: center;">
@@ -302,14 +312,14 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-offset-1 container-subscription-form">
+          <div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-6 col-lg-5 col-lg-offset-1 container-subscription-form">
             <form class="form-inline">
                 <div class="form-group mx-sm-3 mb-2">
                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-posta adresini gir" style="">
                 </div>
                 <button type="submit" class="btn btn-primary mb-2" id="subscription-send-button">Gönder</button>
             </form>
-            <small id="emailHelp" class="form-text text-muted">E-postamı göndererek OttoSmart bültenini ve diğer OttoSmart pazarlama iletişimlerini almayı kabul ettiğimi anladım ve kabul ediyorum.</small>
+            <small id="emailHelp" class="form-text text-muted col-sm-8">E-postamı göndererek OttoSmart bültenini ve diğer OttoSmart pazarlama iletişimlerini almayı kabul ettiğimi anladım ve kabul ediyorum.</small>
           </div>
           <div class="hidden-xs hidden-sm col-md-4 col-lg-6">
             <div id="footer-links">
