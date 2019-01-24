@@ -506,6 +506,7 @@ footer .container{
 }
 #footer-links ul li img {
 	width: 30px;
+	margin: auto;
 	padding-bottom: 11px;
 	display: block;
 	/*
