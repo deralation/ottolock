@@ -3,7 +3,7 @@ body {
     background-color: #F5F5F5 !important;
 	font-size:16px;
 	line-height: 24px;
-	font-family: 'Ubuntu', cursive;
+	font-family: 'Ubuntu', cursive !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
