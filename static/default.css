@@ -218,6 +218,11 @@ a {
 .homepage-pattern {
 	background-image: url('default/homepage_pattern_left.png');
 }
+@media (max-width: 982px) {
+	.homepage-pattern {
+		background-image: none;
+	}
+}
 /* Homepage */
 #homepage-welcome {
 	background-image: url('default/Home_Welcome_Header_Desktop.png');
