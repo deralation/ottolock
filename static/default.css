@@ -307,6 +307,7 @@ a {
 	max-width: 1440px;
 	border-bottom: 1px solid #E6E9EC;
     border-left: 1px solid #E6E9EC;
+    border-right: 1px solid #E6E9EC;
 	/*border: 1px solid red;*/
 }
 /* First Container OttoLock */
@@ -453,10 +454,14 @@ a {
 
 .homepage-ottosmart-instagram {
 	background-color: #ffffff;
+    border-left: 1px solid #E6E9EC;
+    border-right: 1px solid #E6E9EC;
 }
 /* Footer */
-footer {
+footer .container{
 	padding-top: 30px;
+	border-left: 1px solid #E6E9EC;
+    border-right: 1px solid #E6E9EC;
 }
 .container-subscription-form .row {
 	width: 356px;
@@ -511,9 +516,11 @@ footer {
 	transition: all 0.3s linear;
 }
 .copyRight{
+    padding-top: 15px;
 	text-align: center;
 }
 .projectMind {
+    padding-top: 15px;
 	float: right;
 }
 @media (max-width: 768px) {
@@ -532,6 +539,10 @@ footer {
 }
 
 /* OttoLock Homepage */
+#ottolock-homepage {
+    border-left: 1px solid #E6E9EC;
+    border-right: 1px solid #E6E9EC;
+}
 @media (max-width: 767px){
 	.ottolock-appstore {
 		text-align: center;
