@@ -385,6 +385,7 @@ a {
 }
 @media(max-width: 768px){
 	#index-ottolock-info {
+		text-align: center;
 		padding-left: 15px;
 	}
 }
@@ -419,7 +420,6 @@ a {
     background-size: 7px 12px;
     padding-right: 18px;
 }
-
 @media (max-width: 768px) {
 	.container-ottolock-information span {
 		text-align: center;
@@ -427,6 +427,42 @@ a {
 	.container-ottolock-purchase span {
 		text-align: center;
 	}
+}
+@media (max-width:768px){
+	#homepage-ottoled-background {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-image: url(default/Home_OttoLed_Promo_Tablet_BG.png);
+	}
+	#homepage-ottoled .ottolock-icon small {
+    	color: #ffffff;
+	}	
+	#homepage-ottoled .row .container-text-title {
+		color: #ffffff;
+	}
+	#homepage-ottoled .row .container-text {
+		color: #ffffff;
+	}
+}
+@media (min-width:320px) and (max-width:480px){
+	#homepage-ottoled-background {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-image: url(default/Home_OttoLed_Promo_Mobile_BG.png);
+	}
+	#homepage-ottoled .ottolock-icon small {
+    	color: #ffffff;
+	}	
+	#homepage-ottoled .row .container-text-title {
+		color: #ffffff;
+	}
+	#homepage-ottoled .row .container-text {
+		color: #ffffff;
+	}
+}
+.tablet-ottoled-ios {
+    padding-left: 270px;
+    padding-top: 170px;
 }
 .container-ottolock-info{
 	display: inline-block;
@@ -482,7 +518,7 @@ footer .container{
 	padding-left: 40px; 
 	padding-right: 40px;
 }
-@media (max-width: 768px){
+@media (max-width: 480px){
 	#subscription-send-button{
 		width: 100%;
 		margin-left: 0px;
