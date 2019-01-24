@@ -13,7 +13,6 @@ h1,h2,h3,h4,h5,h6 {
 a {
 	color:#2180DD;
 }
-
 /* Spacers */
 .spacer-container, .container-spacer {
 	height:24px;
@@ -37,7 +36,7 @@ a {
 	left:0px;
 	border-bottom:1px solid #E5E5E4;
 	z-index:9999;
-	height:60px;
+	height:100px;
 }
 .header-spacer {
 	height:60px;
@@ -349,6 +348,14 @@ a {
   		letter-spacing: -0.3px;
   		text-align: center;
   		color: #000000;
+	}
+}
+#index-ottolock-info {
+	padding-left: 0px;
+}
+@media(max-width: 768px){
+	#index-ottolock-info {
+		padding-left: 15px;
 	}
 }
 .container-ottolock-information{
