@@ -305,6 +305,22 @@ a {
 	/*border: 1px solid red;*/
 }
 /* First Container OttoLock */
+#ottolock-notification-container {
+	padding-bottom: 250px;
+}
+@media (max-width: 768px){
+	#ottolock-notification-container {
+		padding-bottom: 0px;
+	}		
+}
+#ottolock-access-container{
+	padding-bottom: 250px;
+}
+@media (max-width: 768px){
+	#ottolock-access-container{
+		padding-bottom: 0px;
+	}
+}
 .ottolock-icon {
 	margin-top: 60px;
 }
