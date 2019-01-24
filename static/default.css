@@ -116,6 +116,11 @@ a {
 	color: #0519ff;
 	text-decoration: none;
 }
+.header-navigation li .active  {
+	border-bottom:2px solid #0519ff;
+	color: #0519ff;
+	text-decoration: none;
+}
 .header-user-guest {
 	list-style-type: none;
 	font-weight: 400;
