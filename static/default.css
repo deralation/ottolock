@@ -300,6 +300,8 @@ a {
 /* Container */
 .homepage-ottosmart-detail {
 	max-width: 1440px;
+	border-bottom: 1px solid #E6E9EC;
+    border-left: 1px solid #E6E9EC;
 	/*border: 1px solid red;*/
 }
 /* First Container OttoLock */
