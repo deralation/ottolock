@@ -462,8 +462,11 @@ a {
 	}
 }
 @media (max-width:768px){
+	.homepage-pattern {
+		padding-bottom: 30px;
+	}
 	#homepage-ottoled-background {
-		background-position: center center;
+		/*background-position: center center;*/
 		background-repeat: no-repeat;
 		background-image: url(default/Home_OttoLed_Promo_Tablet_BG.png);
 	}
@@ -479,7 +482,8 @@ a {
 }
 @media (min-width:320px) and (max-width:480px){
 	#homepage-ottoled-background {
-		background-position: center center;
+		border-bottom: 0px;
+		/*background-position: center center;*/
 		background-repeat: no-repeat;
 		background-image: url(default/Home_OttoLed_Promo_Mobile_BG.png);
 	}
