@@ -314,6 +314,11 @@ a {
 #ottolock-notification-container {
 	padding-bottom: 250px;
 }
+@media (max-width: 1024px){
+	#ottolock-notification-container {
+		padding-bottom: 100px;
+	}		
+}
 @media (max-width: 768px){
 	#ottolock-notification-container {
 		padding-bottom: 100px;
@@ -321,6 +326,11 @@ a {
 }
 #ottolock-access-container{
 	padding-bottom: 250px;
+}
+@media (max-width: 1024px){
+	#ottolock-access-container{
+		padding-bottom: 140px;
+	}
 }
 @media (max-width: 768px){
 	#ottolock-access-container{
