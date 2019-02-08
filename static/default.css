@@ -759,7 +759,7 @@ footer .container{
 
 .module-sections {
 	color:#424242;
-	font-size:16px;
+	font-size:14px;
 	line-height: 24px;
 }
 .module-sections h1, .module-sections h2 {
@@ -776,9 +776,9 @@ footer .container{
 	font-weight: normal;
 }
 .module-sections dt {
-	font-size:16px ;
+	font-size:14px ;
 	border-bottom:1px solid #000000;
-	padding:12px 24px 12px 0px;
+	padding:12px 0px 12px 0px;
 	cursor:pointer;
 	font-weight: normal;
 }
@@ -804,7 +804,7 @@ footer .container{
 	/*background-color:#616160;*/
 	color:#000000;
 	padding:12px 24px 12px 0px;
-	font-size:16px;
+	font-size:14px;
 	line-height: 24px;
 	display:none;
 	font-weight: lighter;
