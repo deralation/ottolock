@@ -82,17 +82,20 @@
 		<div class="layer">
 			<div class="container">
 				<div class="row" >
-					<label class="col-xs-12 col-lg-11 col-lg-offset-1" >
+					<label class="col-xs-12" >
 						<p id="homepage-start-text-title">OttoSmart</p>
 					</label>
-					<label class="col-xs-12 col-lg-11 col-lg-offset-1" class="homepage-start-text">
+					<label class="col-xs-12" class="homepage-start-text">
 						<p id="homepage-text">Akıllı Ev ve Ofis Ürünleri</p>
 					</label>
+				</div>
+				<div class="chevron">
+					<a href="#homepage"><img src="static/default/chevrons-down.svg"></a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" id="homepage">
 		<div class="row homepage-ottosmart-detail homepage-pattern">
 			<div class="col-xs-12 col-md-6 col-sm-12 col-lg-4 col-lg-offset-1 container-ottosmart-position">
 				<div class="ottolock-icon">
@@ -209,6 +212,28 @@
 		</div>		
 	</footer>
 	<script type="text/javascript">
+
+		$("a[href='#homepage']").click(function() {
+		  	// Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+
+		      // Store hash
+		      var hash = this.hash;
+
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+		   
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		});
+
 		$(".header-mobile-navigation").on("click",function(e) {
 			e.preventDefault();
 			if($("#header-mobile-menu-navigation").is(":visible")) {

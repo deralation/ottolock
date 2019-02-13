@@ -260,13 +260,14 @@ a {
 	}
 }
 #homepage-start-text-title{
-	font-size: 60px;
+	font-size: 100px;
 	font-weight: normal;
 	font-stretch: normal;
 	font-style: normal;
   	line-height: normal;
 	letter-spacing: -1px;
 	color: #FFFFFF;
+	text-align: center;
 }
 
 #homepage-text{
@@ -276,7 +277,8 @@ a {
 	font-style: normal;
   	line-height: normal;
 	letter-spacing: -0.3px;
-	font-size: 20px;
+	font-size: 40px;
+	text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -301,6 +303,11 @@ a {
   		text-align: center;
   		color: #ffffff;
 	}
+}
+
+.chevron {	
+	text-align: center;
+	padding-top: 40px;
 }
 /* Container */
 .homepage-ottosmart-detail {
