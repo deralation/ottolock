@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OttoSmart Akıllı Ev Çözümleri</title>
+	<meta charset="utf-8" /> 
+   	<meta name="viewport" content="width=device-width, initial-scale=1" />
+   	<link href="static/default.css" rel="stylesheet"/>
+   	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+   	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   	<link rel="apple-touch-icon" sizes="57x57" href="static/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="static/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/manifest.json">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/compressed/themes/classic.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/compressed/themes/classic.date.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/compressed/themes/classic.time.css" rel="stylesheet" crossorigin="anonymous">
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/maps/modules/map.js"></script>
+	<script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+	<script src="https://code.highcharts.com/mapdata/countries/tr/tr-all.js"></script>
+   	<meta name="theme-color" content="#ffffff">
+   	<meta name="description" content="OttoSmart Akıllı Ev Çözümleri">
+   	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/picker.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/picker.date.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/picker.time.js"></script>
+  	<script src="static/panel.js"></script>
+</head>
+<body>
+	<header>
+		<div id="header" class="header container" style="box-shadow: 0 4px 30px -15px #0c0c0c;">
+			<div class="container">
+				<div class="row">
+					<div class="header-mobile col-xs-3 col-sm-5 col-md-5 hidden-lg pull-left" style="margin-top:20px">
+						<a href="" class="header-mobile-navigation">
+	                    	<span class="navigation-bar"></span>
+	                    	<span class="navigation-bar"></span>
+	                    	<span class="navigation-bar"></span>
+	                	</a>
+					</div>
+					<div class="header-mobile-menu row" id="header-mobile-menu-navigation" style="margin-top:20px">
+	                    <ul class="menu-mobile col-xs-offset-1 col-xs-9 col-sm-4 pull-left">
+	                        <li><a href="installation.html">Installation & Users</a></li>
+	                        <li><a href="usage.html">Visitor & Usage</a></li>
+	                        <li><a href="reporting.html" class="active">Reporting</a></li>
+	                    </ul>
+	                </div>
+					<div class="col-xs-6 col-sm-2 col-md-3 col-lg-3">
+	                    <div class="header-logo hidden-xs" style="margin-top:20px">
+	                        <a href="index.html"><img src="static/default/logo.png" alt="OttoSmart" height="24" id="logo" /></a>
+	                    </div>
+	                    <div class="header-logo-mobile hidden-sm hidden-md hidden-lg" style="margin-top:20px">
+	                        <a href="index.html"><img src="static/default/OttoSmart_Logo_Mobile.png" alt="OttoSmart" id="logo" /></a>
+	                    </div>
+	                </div>
+	                <div class="hidden-xs hidden-sm hidden-md col-lg-6" style="margin-top:20px">
+	                    <nav>
+	                        <div class="header-navigation">
+	                            <ul class="list-navigation">
+	                                <li><a href="installation.html">Installation & Users</a></li>
+	                        		<li><a href="usage.html">Visitor & Usage</a></li>
+	                        		<li><a href="reporting.html" class="active">Reporting</a></li>
+	                            </ul>
+	                        </div>
+	                    </nav>
+	                </div>
+				</div>
+			</div>
+		</div>
+		<div class="header-spacer"></div>
+	</header>
+
+	<div class="container-spacer">
+	</div>
+
+	<div class="container heading">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4">
+				<h2 class="subheader">Actions Reporting</h2>
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				<div class="report-filters">
+					<form action="" method="get" class="form-page row">
+						<div class="col-xs-12 col-sm-5 filter-date">
+							<input type="text" name="startDate" id="input-start-date" class="datepicker" placeholder="Report Start Date" data-value="" value="" />
+						</div>
+						<div class="col-xs-12 col-sm-5 filter-date">
+							<input type="text" name="endDate" id="input-end-date" class="datepicker" placeholder="Report End Date"  data-value="" value="" />
+						</div>
+						<div class="col-xs-6 pull-right col-sm-2 filter-submit">
+							<input type="submit" value="Update" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="actionsReporting" style="margin: 0 auto">
+					<script type="text/javascript">
+						Highcharts.chart('actionsReporting', {
+						    chart: {
+						        type: 'pie',
+						    },
+						    title: {
+						        text: ''
+						    },
+						    subtitle: {
+						        text: ''
+						    },
+						    plotOptions: {
+						        pie: {
+						            innerSize: 100,
+						            depth: 45
+						        }
+						    },
+						    series: [{
+						        name: 'Delivered amount',
+						        data: [
+						            ['Kapı açıldı,sorun yok', 22],
+						            ['Kapılar açılırken, sorun var', 33],
+						            ['Kapı kapanırken sorun var', 11],
+						            ['Bluetooth bağlantı sorunu var', 22],
+						            ['Anahtarlık paylaşırken sorun var', 7],
+						            ['Hızlı tükenen pil sorunu', 3],
+						        ]
+						    }]
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container heading">
+		<div class="row">
+			<div class="col-xs-12 col-sm-8">
+				<h2 class="subheader">Geo-Locations</h2>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="geoLocations" style="margin: 0 auto">
+					<script type="text/javascript">
+					var data = [
+					    ['tr-or', 0],
+					    ['tr-ss', 1],
+					    ['tr-ga', 2],
+					    ['tr-4409', 3],
+					    ['tr-kc', 4],
+					    ['tr-bk', 5],
+					    ['tr-ck', 6],
+					    ['tr-tt', 7],
+					    ['tr-gi', 8],
+					    ['tr-en', 9],
+					    ['tr-bg', 10],
+					    ['tr-ht', 11],
+					    ['tr-aa', 12],
+					    ['tr-cm', 13],
+					    ['tr-kk', 14],
+					    ['tr-ng', 15],
+					    ['tr-ak', 16],
+					    ['tr-kh', 17],
+					    ['tr-yz', 18],
+					    ['tr-am', 19],
+					    ['tr-ms', 20],
+					    ['tr-bm', 21],
+					    ['tr-ka', 22],
+					    ['tr-ig', 23],
+					    ['tr-du', 24],
+					    ['tr-zo', 25],
+					    ['tr-kb', 26],
+					    ['tr-yl', 27],
+					    ['tr-sk', 28],
+					    ['tr-ci', 29],
+					    ['tr-bl', 30],
+					    ['tr-ed', 31],
+					    ['tr-es', 32],
+					    ['tr-ko', 33],
+					    ['tr-bu', 34],
+					    ['tr-kl', 35],
+					    ['tr-ib', 36],
+					    ['tr-kr', 37],
+					    ['tr-al', 38],
+					    ['tr-af', 39],
+					    ['tr-bd', 40],
+					    ['tr-ip', 41],
+					    ['tr-ay', 42],
+					    ['tr-mn', 43],
+					    ['tr-dy', 44],
+					    ['tr-ad', 45],
+					    ['tr-km', 46],
+					    ['tr-ky', 47],
+					    ['tr-eg', 48],
+					    ['tr-ic', 49],
+					    ['tr-sp', 50],
+					    ['tr-av', 51],
+					    ['tr-ri', 52],
+					    ['tr-tb', 53],
+					    ['tr-an', 54],
+					    ['tr-su', 55],
+					    ['tr-bb', 56],
+					    ['tr-em', 57],
+					    ['tr-mr', 58],
+					    ['tr-sr', 59],
+					    ['tr-si', 60],
+					    ['tr-hk', 61],
+					    ['tr-va', 62],
+					    ['tr-ar', 63],
+					    ['tr-ki', 64],
+					    ['tr-br', 65],
+					    ['tr-tg', 66],
+					    ['tr-iz', 67],
+					    ['tr-ks', 68],
+					    ['tr-mg', 69],
+					    ['tr-ku', 70],
+					    ['tr-nv', 71],
+					    ['tr-sv', 72],
+					    ['tr-tc', 73],
+					    ['tr-ml', 74],
+					    ['tr-ag', 75],
+					    ['tr-bt', 76],
+					    ['tr-gu', 77],
+					    ['tr-os', 78],
+					    ['tr-bc', 79],
+					    ['tr-dn', 80],
+					    ['tr-us', 81]
+					];
+
+					// Create the chart
+					Highcharts.mapChart('geoLocations', {
+					    chart: {
+					        map: 'countries/tr/tr-all'
+					    },
+
+					    title: {
+					        text: ''
+					    },
+
+					    subtitle: {
+					        text: ''
+					    },
+
+					    mapNavigation: {
+					        enabled: true,
+					        buttonOptions: {
+					            verticalAlign: 'bottom'
+					        }
+					    },
+
+					    colorAxis: {
+					        min: 0
+					    },
+
+					    series: [{
+					        data: data,
+					        name: 'Random data',
+					        states: {
+					            hover: {
+					                color: '#BADA55'
+					            }
+					        },
+					        dataLabels: {
+					            enabled: true,
+					            format: '{point.name}'
+					        }
+					    }]
+					});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>

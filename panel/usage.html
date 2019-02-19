@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OttoSmart Akıllı Ev Çözümleri</title>
+	<meta charset="utf-8" /> 
+   	<meta name="viewport" content="width=device-width, initial-scale=1" />
+   	<link href="static/default.css" rel="stylesheet"/>
+   	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+   	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   	<link rel="apple-touch-icon" sizes="57x57" href="static/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="static/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/manifest.json">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/compressed/themes/classic.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/compressed/themes/classic.date.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/compressed/themes/classic.time.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+   	<meta name="theme-color" content="#ffffff">
+   	<meta name="description" content="OttoSmart Akıllı Ev Çözümleri">
+   	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/picker.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/picker.date.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/picker.time.js"></script>
+  	<script src="static/panel.js"></script>
+</head>
+<body>
+	<header>
+		<div id="header" class="header container" style="box-shadow: 0 4px 30px -15px #0c0c0c;">
+			<div class="container">
+				<div class="row">
+					<div class="header-mobile col-xs-3 col-sm-5 col-md-5 hidden-lg pull-left" style="margin-top:20px">
+						<a href="" class="header-mobile-navigation">
+	                    	<span class="navigation-bar"></span>
+	                    	<span class="navigation-bar"></span>
+	                    	<span class="navigation-bar"></span>
+	                	</a>
+					</div>
+					<div class="header-mobile-menu row" id="header-mobile-menu-navigation" style="margin-top:20px">
+	                    <ul class="menu-mobile col-xs-offset-1 col-xs-9 col-sm-4 pull-left">
+	                        <li><a href="installation.html">Installation & Users</a></li>
+	                        <li><a href="usage.html" class="active">Visitor & Usage</a></li>
+	                        <li><a href="reporting.html">Reporting</a></li>
+	                    </ul>
+	                </div>
+					<div class="col-xs-6 col-sm-2 col-md-3 col-lg-3">
+	                    <div class="header-logo hidden-xs" style="margin-top:20px">
+	                        <a href="index.html"><img src="static/default/logo.png" alt="OttoSmart" height="24" id="logo" /></a>
+	                    </div>
+	                    <div class="header-logo-mobile hidden-sm hidden-md hidden-lg" style="margin-top:20px">
+	                        <a href="index.html"><img src="static/default/OttoSmart_Logo_Mobile.png" alt="OttoSmart" id="logo" /></a>
+	                    </div>
+	                </div>
+	                <div class="hidden-xs hidden-sm hidden-md col-lg-6" style="margin-top:20px">
+	                    <nav>
+	                        <div class="header-navigation">
+	                            <ul class="list-navigation">
+	                                <li><a href="installation.html">Installation & Users</a></li>
+	                        		<li><a href="usage.html" class="active">Visitor & Usage</a></li>
+	                        		<li><a href="reporting.html">Reporting</a></li>
+	                            </ul>
+	                        </div>
+	                    </nav>
+	                </div>
+				</div>
+			</div>
+		</div>
+		<div class="header-spacer"></div>
+	</header>
+
+	<div class="container-spacer">
+	</div>
+
+	<div class="container heading">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4">
+				<h2 class="subheader">Admins / Visitors</h2>
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				<div class="report-filters">
+					<form action="" method="get" class="form-page row">
+						<div class="col-xs-12 col-sm-5 filter-date">
+							<input type="text" name="startDate" id="input-start-date" class="datepicker" placeholder="Report Start Date" data-value="" value="" />
+						</div>
+						<div class="col-xs-12 col-sm-5 filter-date">
+							<input type="text" name="endDate" id="input-end-date" class="datepicker" placeholder="Report End Date"  data-value="" value="" />
+						</div>
+						<div class="col-xs-6 pull-right col-sm-2 filter-submit">
+							<input type="submit" value="Update" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="visitors" style="margin: 0 auto">
+					<script type="text/javascript">
+						Highcharts.chart('visitors', {
+						    chart: {
+						        type: 'pie',
+						    },
+						    title: {
+						        text: ''
+						    },
+						    subtitle: {
+						        text: ''
+						    },
+						    plotOptions: {
+						        pie: {
+						            innerSize: 100,
+						            depth: 45
+						        }
+						    },
+						    series: [{
+						        name: 'Delivered amount',
+						        data: [
+						            ['Admin', 50],
+						            ['Visitor/Permanent', 33],
+						            ['Visitor/Recurring', 22]
+						        ]
+						    }]
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container heading">
+		<div class="row">
+			<div class="col-xs-12 col-sm-8">
+				<h2 class="subheader">Usage</h2>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="usage" style="margin: 0 auto">
+					<script type="text/javascript">
+						Highcharts.chart('usage', {
+						    chart: {
+						        type: 'bar'
+						    },
+						    title: {
+						        text: ''
+						    },
+						    subtitle: {
+						        text: ''
+						    },
+						    xAxis: {
+							    categories: [
+							      'Jan',
+							      'Feb',
+							      'Mar',
+							      'Apr',
+							      'May',
+							      'Jun',
+							      'Jul',
+							      'Aug',
+							      'Sep',
+							      'Oct',
+							      'Nov',
+							      'Dec'
+							    ],
+						    	crosshair: true
+						  	},
+						    yAxis: {
+						        min: 0,
+						        title: {
+						            text: '',
+						            align: 'high'
+						        },
+						        labels: {
+						            overflow: 'justify'
+						        }
+						    },
+						    tooltip: {
+						        valueSuffix: ' millions'
+						    },
+						    plotOptions: {
+						        bar: {
+						            dataLabels: {
+						                enabled: true
+						            }
+						        }
+						    },
+						    legend: {
+						        layout: 'vertical',
+						        align: 'right',
+						        verticalAlign: 'top',
+						        x: -40,
+						        y: 80,
+						        floating: true,
+						        borderWidth: 1,
+						        backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+						        shadow: true
+						    },
+						    credits: {
+						        enabled: false
+						    },
+						    series: [{
+						        name: '',
+						        data: [107, 31, 635, 203, 2,10,20,1,4,8,25,333]
+						    }]
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
