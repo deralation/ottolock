@@ -238,3 +238,20 @@ a {
 .heading h1, .heading h2, .heading h3 {
 	margin-left:16px;
 }
+
+.report-filters .filter-date input {
+	border:0px;
+	border-bottom:1px solid #e0e0e0;
+	width:100%;
+	height:36px;
+	line-height:36px;
+	text-align: center;
+}
+
+.report-filters .filter-submit input {
+	color:#3851B7;
+	line-height: 34px;
+	padding:0px 10px;
+	border:1px solid #e0e0e0;
+	background-color: #fff;
+}
