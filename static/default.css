@@ -356,6 +356,18 @@ a {
 		margin-top: 90px;
 	}
 }
+.ottoled-icon {
+	margin-top: 60px;
+}
+#ottoled-access-title  p{
+	text-align: left;
+}
+@media (max-width: 768px) {
+	.ottoled-icon {
+		text-align: center;
+		margin-top: 90px;
+	}
+}
 @media (min-width: 768px) {
 	#ottolock-notification-title  p{
 		float: left;
@@ -509,6 +521,9 @@ a {
     padding-top: 170px;
 }
 .container-ottolock-info{
+	display: inline-block;
+}
+.container-ottoled-info{
 	display: inline-block;
 }
 #container-ottolock-image {
@@ -816,4 +831,16 @@ footer .container{
 	display:none;
 	font-weight: lighter;
 	border-bottom:1px solid #000000;
+}
+.contact-us {
+	background-color: #0519ff; 
+	border-radius: 25px; 
+	padding-left: 40px; 
+	padding-right: 40px;
+}
+@media (max-width: 480px){
+	.contact-us {
+		width: 100%;
+		margin-left: 0px;
+	}
 }
