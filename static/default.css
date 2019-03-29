@@ -844,3 +844,9 @@ footer .container{
 		margin-left: 0px;
 	}
 }
+
+@media (min-width: 1200px){
+	.col-lg-offset-3-ottoled {
+	    margin-left: 20% !important;
+	}
+}
