@@ -593,7 +593,7 @@ footer .container{
 	display: inline;
 	list-style: none;
   	float: left;
-  	padding: 0 100px 0 0;
+  	padding: 0 60px 0 0;
   	text-align:center; 
 }
 #footer-links ul li a {
@@ -855,4 +855,90 @@ footer .ottoled-container {
 	padding-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
+}
+
+/* OttoLock Homepage */
+#ottoaccess-homepage {
+    border-left: 1px solid #E6E9EC;
+    border-right: 1px solid #E6E9EC;
+}
+.ottoaccess-icon {
+	margin-top: 60px;
+}
+.otto-access-text-title {
+	padding-top: 30px;
+	font-family: Ubuntu;
+  	font-size: 30px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: -0.7px;
+  	color: #ffffff;
+}
+@media (max-width: 768px) {
+	.otto-access-text-title {
+		font-family: Ubuntu;
+  		font-size: 30px;
+  		font-weight: normal;
+  		font-style: normal;
+  		font-stretch: normal;
+  		line-height: normal;
+  		letter-spacing: -0.7px;
+  		color: #ffffff;
+	}
+}
+.otto-access-text {
+	font-family: Ubuntu;
+	  font-size: 20px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: -0.7px;
+	  color: #ffffff;
+}
+.otto-access {
+	background-image: url(default/ottoaccess_header_background.jpg);
+	background-repeat: no-repeat;
+}
+.otto-access-chevron {	
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+.otto-access-cloud-panel {
+	text-align: center; 
+	padding-bottom: 100px;
+}
+@media (max-width: 768px) {
+	.otto-access-cloud-panel {
+		text-align: center; 
+		padding-bottom: 60px;
+	}
+}
+.otto-access-list-title {
+	font-family: Ubuntu;
+  	font-size: 25px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.28;
+  	letter-spacing: -0.4px;
+  	color: #000000;
+}
+
+.otto-access-list-text {
+	font-family: Ubuntu;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.56;
+  	letter-spacing: -0.3px;
+  	color: #000000;
+}
+
+.otto-access-list-icons{
+	padding-bottom: 36px;
 }
