@@ -480,7 +480,7 @@ a {
 		text-align: center;
 	}
 }
-@media (max-width:768px){
+@media (min-width:481px) and (max-width:768px){
 	.homepage-pattern {
 		padding-bottom: 30px;
 	}
@@ -500,11 +500,17 @@ a {
 	}
 }
 @media (min-width:320px) and (max-width:480px){
+	#homepage-ottoaccess-background {
+		border-bottom: 0px;
+		/*background-position: center center;*/
+		background-repeat: no-repeat;
+		background-image: url(default/OttoAccess_iPad_BG.png);
+	}
 	#homepage-ottoled-background {
 		border-bottom: 0px;
 		/*background-position: center center;*/
 		background-repeat: no-repeat;
-		background-image: url(default/Home_OttoLed_Promo_Mobile_BG.png);
+		background-image: url(default/Home_OttoLed_Promo_Tablet_BG.png);
 	}
 	#homepage-ottoled .ottolock-icon small {
     	color: #ffffff;
