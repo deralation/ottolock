@@ -105,12 +105,12 @@
         </div>
 
         <div class="otto-access-chevron">
-          <a href=""><img src="static/default/chevrons-down.svg"></a>
+          <a href="#ottoaccess-content"><img src="static/default/chevrons-down.svg"></a>
         </div>
       </div>
     </div>
 
-    <div class="row" style="background-color: #f6f6f6; padding-bottom: 60px;">
+    <div class="row" style="background-color: #f6f6f6; padding-bottom: 60px;" id="ottoaccess-content">
       <div class="col-xs-12 container-ottosmart-position">
         <div class="row">
           <div class="ottoaccess-icon" style="text-align: center;">
@@ -431,7 +431,7 @@
 
 
 
-        $("a[href='#homepage']").click(function() {
+        $("a[href='#ottoaccess-content']").click(function() {
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
               // Prevent default anchor click behavior
