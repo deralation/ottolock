@@ -356,6 +356,18 @@ a {
 		margin-top: 90px;
 	}
 }
+.ottoaccess-homepage-icon {
+	margin-top: 60px;
+}
+#ottolock-access-title  p{
+	text-align: left;
+}
+@media (max-width: 768px) {
+	.ottoaccess-homepage-icon {
+		text-align: center;
+		margin-top: 60px;
+	}
+}
 .ottoled-icon {
 	margin-top: 60px;
 }
@@ -480,17 +492,21 @@ a {
 		text-align: center;
 	}
 }
-@media (min-width:481px) and (max-width:768px){
+@media (min-width:438px) and (max-width:768px){
 	.homepage-pattern {
 		padding-bottom: 30px;
 	}
 	#homepage-ottoled-background {
 		/*background-position: center center;*/
+		height: 700px;
 		background-repeat: no-repeat;
 		background-image: url(default/Home_OttoLed_Promo_Tablet_BG.png);
 	}
 	#homepage-ottoled .ottolock-icon small {
     	color: #ffffff;
+	}
+	#homepage-ottoaccess-background .ottoaccess-homepage-icon small{
+		color: #ffffff;
 	}	
 	#homepage-ottoled .row .container-text-title {
 		color: #ffffff;
@@ -498,16 +514,25 @@ a {
 	#homepage-ottoled .row .container-text {
 		color: #ffffff;
 	}
-}
-@media (min-width:320px) and (max-width:480px){
 	#homepage-ottoaccess-background {
 		border-bottom: 0px;
+		height: 750px;
+		/*background-position: center center;*/
+		background-repeat: no-repeat;
+		background-image: url(default/OttoAccess_iPad_BG.png);
+	}
+}
+@media (min-width:320px) and (max-width:437px){
+	#homepage-ottoaccess-background {
+		border-bottom: 0px;
+		height: 700px;
 		/*background-position: center center;*/
 		background-repeat: no-repeat;
 		background-image: url(default/OttoAccess_iPad_BG.png);
 	}
 	#homepage-ottoled-background {
 		border-bottom: 0px;
+		height: 800px;
 		/*background-position: center center;*/
 		background-repeat: no-repeat;
 		background-image: url(default/Home_OttoLed_Promo_Tablet_BG.png);
